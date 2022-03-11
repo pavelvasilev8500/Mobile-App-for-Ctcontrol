@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.Ctcontrol.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme.AppWidgetContainer">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/Widget.Ctcontrol.AppWidget.InnerView">
+
+        <TextView
+            android:id="@+id/date"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/appwidget_text"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/time"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/appwidget_text"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/day"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/appwidget_text"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/worktimetext"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/appwidget_text"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/worktime"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/appwidget_text"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/batarytext"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/appwidget_text"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/batary"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/appwidget_text"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            android:layout_row="6"
+            android:layout_column="0"
+            android:textAlignment="center"/>
+
+    </GridLayout>
+
+</RelativeLayout>
